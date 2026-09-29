@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于 · __BRAND__</title>
+<meta name="description" content="我是谁，为什么把这些鞋子拍下来。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="notice">
+  <b>预览中</b>：照片已是实拍，只差填写微信号（上线前删掉这条提示）
+  <button type="button" aria-label="关闭">×</button>
+</div>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__cn" data-site="brandCn">JE TAIMAIS</span>
+      <span class="brand__en" data-site="brandEn">SHOE NOTES</span>
+    </a>
+    <nav class="nav__menu">
+      <a href="index.html#wall-sec">全部笔记</a>
+      <a href="about.html">关于</a>
+      <a class="btn btn--ghost" href="#contact">微信联系</a>
+    </nav>
+    <button class="nav__toggle" type="button" aria-label="菜单"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div style="padding:72px 0 46px;border-bottom:1px solid var(--hair)">
+      <p class="label">ABOUT</p>
+      <h1 class="h1" style="font-size:clamp(22px,3vw,32px)" id="about-lead">关于我</h1>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="about-split">
+        <div>
+          <div id="about-body" class="lede"></div>
+        </div>
+        <div class="about-split__media">
+          <img data-site-src="aboutImage" src="assets/img/shoes/demo-onfoot.jpg" alt="关于我" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="padding-top:0">
+    <div class="wrap">
+      <div class="contact">
+        <div class="contact__txt">
+          <p class="label">WECHAT</p>
+          <h2 class="h2" data-site="contactTitle">想聊聊鞋？加我微信。</h2>
+          <p class="lede" style="margin-top:18px" data-site="contactNote">
+            想看某个角度的细节、想聊聊搭配，都可以加我微信。看到消息会尽快回复。
+          </p>
+        </div>
+        <div class="contact__qr">
+          <figure><img data-site-src="qrImage" src="assets/img/wechat-qr.png" alt="微信二维码" loading="lazy"></figure>
+          <p class="id" style="display:none">微信号：<b data-site="wechatId"></b></p>
+          <button class="btn btn--wx" type="button" data-copy-wechat style="display:none">复制微信号</button>
+          <p class="tiny wx-hint" style="margin-top:14px">长按二维码识别，加我微信</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__inner">
+      <div class="brand">
+        <span class="brand__cn" data-site="brandCn">JE TAIMAIS</span>
+        <span class="brand__en" data-site="brandEn">SHOE NOTES</span>
+      </div>
+      <nav class="footer__links">
+        <a href="index.html#wall-sec">全部笔记</a>
+        <a href="about.html">关于</a>
+        <a href="#contact">微信联系</a>
+      </nav>
+    </div>
+    <div class="footer__legal">
+      <span data-site="city">SHOE NOTES</span>
+      <span>© <span id="year">2026</span> JE TAIMAIS · 本站图片均为本人拍摄，请勿转载</span>
+    </div>
+  </div>
+</footer>
+
+<button class="fab" type="button">微信联系</button>
+<div class="toast"></div>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

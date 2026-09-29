@@ -1,0 +1,49 @@
+[
+  {
+    "name": "adidas Campus · 绿麂皮",
+    "note": "第一双放进来的鞋。绿麂皮配米白鞋身，中底是那种旧旧的奶油色，鞋侧压着「CAMPUS」的印记——复古的样子做得很正。",
+    "images": [
+      "assets/img/campus/cover.jpg",
+      "assets/img/campus/01.jpg",
+      "assets/img/campus/02.jpg",
+      "assets/img/campus/03.jpg",
+      "assets/img/campus/04.jpg",
+      "assets/img/campus/05.jpg",
+      "assets/img/campus/06.jpg",
+      "assets/img/campus/07.jpg",
+      "assets/img/campus/08.jpg"
+    ],
+    "sections": [
+      {
+        "caption": "鞋跟细节",
+        "text": "鞋跟的麂皮质感很细腻，白色三叶草压在最上面。",
+        "images": ["assets/img/campus/01.jpg"]
+      },
+      {
+        "caption": "一双的样子",
+        "text": "放在蓝盒上拍的第一张，就是这双鞋最好看的角度。",
+        "images": ["assets/img/campus/02.jpg", "assets/img/campus/03.jpg", "assets/img/campus/04.jpg"]
+      },
+      {
+        "caption": "大底",
+        "text": "生胶大底，锯齿纹路很深，雨天走也不滑。",
+        "images": ["assets/img/campus/05.jpg"]
+      },
+      {
+        "caption": "鞋头",
+        "text": "鞋头是圆润的宽楦，脚宽的也塞得进去。鞋带是那种有点厚度的编织棉。",
+        "images": ["assets/img/campus/06.jpg"]
+      },
+      {
+        "caption": "叠起来看",
+        "text": "一双叠着放，能看出鞋身的厚度和鞋型的比例。",
+        "images": ["assets/img/campus/07.jpg"]
+      },
+      {
+        "caption": "走线与印花",
+        "text": "顺着「CAMPUS」看过去，走线和压印都收得很整齐。",
+        "images": ["assets/img/campus/08.jpg"]
+      }
+    ]
+  }
+]
